@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Joaquim renato </title>
+    <!-- CSS Interno -->
+    <style>
+        body {
+            background-color: pink;
+        }
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+        p {
+            font-size: 18px;
+            color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha Página com CSS e JavaScript</h1>
+    <p>Este é um parágrafo estilizado com CSS.</p>
+    
+    <!-- Botão que interage com JavaScript -->
+    <button onclick="mudarTexto()">Clique para mudar o texto</button>
+    <p id="paragrafo">INHAIM!!!!.</p>
+
+    <!-- JavaScript Interno -->
+    <script>
+        function mudarTexto() {
+            document.getElementById("paragrafo").innerHTML = "Buonasera KATUSHA!";
+        }
+    </script>
+</body>
+</html>
